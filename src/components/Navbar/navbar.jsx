@@ -25,7 +25,7 @@ const Navbar = () => {
             <img src="images/contact11.jpeg" alt="contact" className="desktopMenuImg" />Contact Me
           </button>
 
-            <img src="./src/assets/images/menu1.jpeg" alt="menu" className='mobMenu'  id='mobMenuImg' onClick={() => setShowMenu(!showMenu)} />
+            <img src="images/menu1.jpeg" alt="menu" className='mobMenu'  id='mobMenuImg' onClick={() => setShowMenu(!showMenu)} />
         <div className="navMenu" style={{display: showMenu? 'flex' : 'none'}}>
             <Link activeClass='active' to='intro'   spy={true}    smooth={true} offset={-100} duration={500}  className="listItem" onClick={() => setShowMenu(false)}>Home</Link>
             <Link  activeClass='active' to='skills' spy={true}   smooth={true} offset={-50}    duration={500}    className="listItem" onClick={() => setShowMenu(false)}>About</Link>
