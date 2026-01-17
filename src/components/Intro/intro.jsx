@@ -37,7 +37,7 @@ const Intro = () => {
               title="Nnamdi Nnadi CV"
               className="cvFrame"
             ></iframe>
-            <a href="./public/NNAMDI CV Prog-2026.doc" download="NNAMDI CV Prog-2026.doc">
+            <a href="/public/NNAMDI CV Prog-2026.doc" download="NNAMDI CV Prog-2026.doc">
               <button className="btn downloadBtn">Download CV</button>
             </a>
           </div>
