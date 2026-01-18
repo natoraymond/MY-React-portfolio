@@ -38,6 +38,7 @@ const Works = () => {
       <span className="worksDesc">
         A collection of real-world projects showcasing my ability to design and build responsive, user-friendly, and scalable web applications using modern frontend and backend technologies.
       </span>
+      <p className='parm'>Dive into my work. click any project to see details and more projects.</p>
 
       <div className="worksImgs">
         {images.slice(0, visibleCount).map((item, index) => (

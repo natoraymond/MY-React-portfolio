@@ -21,6 +21,12 @@
     font-size: 1rem;
     max-width: 45rem;
 }
+.parm {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+    opacity: 0.5;
+}
 
 .worksImgs {
     display: flex;
@@ -60,4 +66,10 @@
     .worksImg {
         height: 48vw;
     }
+
+    .worksImg {
+        cursor: pointer;
+    }
+
+    
 }

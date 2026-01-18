@@ -21,7 +21,7 @@ const Intro = () => {
         {/* Hire Me Button */}
         <button className="btn" onClick={handleOpenCV}>
           <img src="/images/hire-me.jpeg" alt="hire me" className='btnImg' />
-          Hire Me
+          Download CV
         </button>
       </div>
 
