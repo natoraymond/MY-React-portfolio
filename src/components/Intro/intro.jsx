@@ -46,7 +46,6 @@ const Intro = () => {
                   Click the button below to download my resume.
                 </p>
               </div>
-            {/* <a href="./public/NNAMDI CV Prog-2026.doc" download="NNAMDI CV Prog-2026.doc"> */}
                 <a href="/NNAMDI CV Prog-2026.doc" download="NNAMDI CV Prog-2026.doc">
                 <button className="btn downloadBtn">Download CV</button>
             </a>
