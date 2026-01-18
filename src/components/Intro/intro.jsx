@@ -34,10 +34,18 @@ const Intro = () => {
             <button className="closeBtn" onClick={handleCloseCV}>X</button>
             <iframe
               // src="/files/Nnamdi Cv Pdf.pdf"  // My PDF is in public/files/
-               src="/files//NNAMDI CV Prog-2026.doc"
+               src="/files/NNAMDI CV Prog-2026.doc"
               title="Nnamdi Nnadi CV"
               className="cvFrame"
             ></iframe>
+             {/* WELCOME MESSAGE */}
+              <div className="cvWelcome">
+                <h2>Welcome to My CV</h2>
+                <p>
+                  Thank you for your interest.  
+                  Click the button below to download my resume.
+                </p>
+              </div>
             {/* <a href="./public/NNAMDI CV Prog-2026.doc" download="NNAMDI CV Prog-2026.doc"> */}
                 <a href="/NNAMDI CV Prog-2026.doc" download="NNAMDI CV Prog-2026.doc">
                 <button className="btn downloadBtn">Download CV</button>

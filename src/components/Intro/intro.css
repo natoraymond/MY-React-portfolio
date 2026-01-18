@@ -120,6 +120,24 @@
   border: none;
   margin-top: 2rem;
 }
+
+.cvWelcome {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.cvWelcome h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.cvWelcome p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
 /* Download button */
 .downloadBtn {
   margin-top: 1rem;
